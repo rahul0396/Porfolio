@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     /* *{
+        padding: 0rem;
+        margin:0rem;
+
+    }
+    :root{
+    --primary: #e5f50a;
+
+    } */
+    *{
+        padding: 0rem;
+        margin:0rem;
+        /* background-color:; */
+    
+    }
+    :root{
+    --primary:#00b4d8;
+    --textcolor: #03045e;
+    /* --secondary:#e8f16a; */
+    --hover:chartreuse;
+    --secondary:#caf0f8;
+    text-align: center;
+
+
+    }
+    h1,h2,p{
+        color:var(--textcolor);}
+    .navi{
+        display: flex;
+        background-color:var(--primary);
+        border-bottom-right-radius: 110px;
+        align-items: center;
+        justify-content: center;
+        /* another aproch by ankita website*/
+        padding:0rem 1rem;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+    }
+    img.logo{
+        padding: 10px;
+        margin:10px;
+        width:"10px";
+        height:"10px";   
+    }
+    img.logo1:hover{
+        width: 100px;
+        height:100px;
+        background-color: chartreuse;
+        /* image-resolution: 100 100; */
+
+    }
+    .menu{padding: 10px;
+        margin:10px; 
+
+    }
+    .menu ul{
+        display: flex;
+    }
+    .menu ul li{
+        padding: 5px 10px;
+        list-style: none;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: var(--textcolor);
+        font-size: 1.5rem;
+
+        
+    }
+    .menu ul li a:hover{
+
+        color: chartreuse;
+        font-size: 1.8rem;
+        
+    }
+    .sec1{
+        font-size: xx-large;
+    }
+    ol{
+        color: var(--textcolor);
+        margin: 2rem;
+        padding: 10px;
+        text-align: left;
+    }
+    ol li{
+        font-size: 25px;
+        margin: auto;
+        padding: 10px;
+    }
+    ol p{
+        text-align: left;
+
+    }
+    .btn{
+       background-color:var(--secondary);
+       color: var(--textcolor);
+       border-radius: 10px;
+       font-size: 20px;
+       padding: 2px;
+       margin: 5px;
+        align-self: center;
+    }
+    .btn1{
+        background-color:var(--primary);
+       color: var(--textcolor);
+       border-radius: 10px;
+       font-size: 20px;
+       padding: 2px;
+       margin: 5px;
+        align-self: center;
+    }
+    .btn:hover{
+        background-color:#9dc7cf ;
+    }
+    .btn1:hover{
+        background-color: #035e70;
+    }
+
+
+
+
+
+
+
+    .f{
+        background-color: var(--primary);
+        border-top-right-radius: 20px;
+        text-align: center;
+    }
+    .f1{
+        width: 50px;
+        height:50px;
+        padding: 10px 10px;
+        margin-right: 10px;
+    }
+    .f1 img{
+        width: 20px;
+        height:20px;
+        display: flex;}
+    
+    /* li{
+    display: list-item;
+    list-style-position: inside;
+        } 
+
+        ol li   {
+                     display:block;
+                     list-style: decimal;
+                     list-style-position: inside;
+                     
+}
+                }
+  ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    } */
+
+
+
+
+
+
+</style>
+<body>
+    <div class="navi">
+        <div class="logo">
+            <a href="/"><img class="logo1"src="/images/39 (2).jpg" width="80px" height="80px">
+            </a>
+            </div >
+        <div class="menu">
+            <ul>
+                <li> <a href="/">Home</a> </li>
+                <li> <a href="/project.html">Projects</a> </li>
+                <li> <a href="/blogs.html">Blogs</a> </li>
+                <li> <a href="">About us</a> </li>
+            </ul>
+        </div>
+    
+    </div>
+    <section class="sec1">
+        <h1>My <span style="color: var(--primary);">Projects</span></h1>
+    </section>
+    <!-- <div class="sec2"> -->
+        <ol reversed>
+            <li>My portfolio</li>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque unde quia voluptas ratione placeat, soluta porro suscipit exercitationem saepe voluptatem optio numquam facilis incidunt commodi. Quisquam ea nihil quaerat mollitia!</p>
+            <button class="btn">
+                Browse project
+            </button>
+            <button class="btn1">
+                code
+            </button>
+            <li>Quiz</li>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At exercitationem consequuntur eaque debitis quis, minus ab hic ea totam qui explicabo et autem optio quasi nam impedit sequi inventore laudantium.</p>
+            <button class="btn">
+                Browse project
+            </button>
+            <button class="btn1">
+                code
+            </button>
+            <li>Language Translator</li>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis assumenda cumque molestias cum, esse repudiandae sed dicta animi fugit nostrum voluptate, eius in eos ex rem consectetur nemo voluptas iste.</p>
+            <button class="btn">
+                Browse project
+            </button>
+            <button class="btn1">
+                code
+            </button>
+            <li>Emoji Dictionary</li>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque facilis quae sapiente saepe voluptatem consectetur dignissimos omnis. Quasi, sapiente rerum ipsam animi natus eligendi aliquid assumenda aut maxime adipisci illum.</p>
+            <button class="btn">
+                Browse project
+            </button>
+            <button class="btn1">
+                code
+            </button>
+        </ol>
+    
+
+      <footer class="f">
+        <h2>
+
+            Connect with me on!
+            </h2>
+        <img src="/images/github logo.png" alt="" class="f1">
+            <img src="/images/linkedin logo.png" alt="" class="f1" width="25px">
+            <img src="/images/twitter logo.png" alt="" class="f1">
+    </footer>
+</body>
+</html>

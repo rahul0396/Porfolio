@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   /* navigation css */
+    *{
+        padding: 0rem;
+        margin:0rem;
+        /* background-color:; */
+    
+    }
+    :root{
+    --primary:#00b4d8;
+    --textcolor: #03045e;
+    /* --secondary:#e8f16a; */
+    --hover:chartreuse;
+    --secondary:#caf0f8;
+    text-align: center;
+
+
+    }
+    h1,h2,p{
+        color:var(--textcolor);}
+    .navi{
+        display: flex;
+        background-color:var(--primary);
+        border-bottom-right-radius: 110px;
+        align-items: center;
+        justify-content: center;
+        /* another aproch by ankita website*/
+        padding:0rem 1rem;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+    }
+    img.logo{
+        padding: 10px;
+        margin:10px;
+        width:"10px";
+        height:"10px";   
+    }
+    img.logo1:hover{
+        width: 100px;
+        height:100px;
+        background-color: chartreuse;
+        /* image-resolution: 100 100; */
+
+    }
+    .menu{padding: 10px;
+        margin:10px; 
+
+    }
+    .menu ul{
+        display: flex;
+    }
+    .menu ul li{
+        padding: 5px 10px;
+        list-style: none;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: var(--textcolor);
+        font-size: 1.5rem;
+
+        
+    }
+    .menu ul li a:hover{
+
+        color: chartreuse;
+        font-size: 1.8rem;
+        
+    }
+
+    /* footer css */
+    .f{
+        background-color: var(--primary);
+        border-top-right-radius: 20px;
+        text-align: center;
+    }
+    .f1{
+        width: 50px;
+        height:50px;
+        padding: 10px 10px;
+        margin-right: 10px;
+    }
+    .f1 img{
+        width: 20px;
+        height:20px;
+        display: flex;
+        
+        
+
+    }
+   /* ol li css */
+   ol{
+        color: var(--textcolor);
+        margin: 2rem;
+        padding: 10px;
+        text-align: left;
+    }
+    ol li{
+        font-size: 25px;
+        margin: auto;
+        padding: 10px;
+    }
+    ol p{
+        text-align: left;
+
+    }
+
+    /* button css */
+    .btn{
+       background-color:var(--secondary);
+       color: var(--textcolor);
+       border-radius: 10px;
+       font-size: 20px;
+       padding: 2px;
+       margin: 5px;
+        align-self: center;
+    }
+
+
+
+
+</style>
+
+<body>
+    <!-- navigation -->
+    <div class="navi">
+        <div class="logo">
+            <a href="/"><img class="logo1"src="/images/39 (2).jpg" width="80px" height="80px">
+            </a>
+            </div >
+        <div class="menu">
+            <ul>
+                <li> <a href="/">Home</a> </li>
+                <li> <a href="/project.html">Projects</a> </li>
+                <li> <a href="/blogs.html">Blogs</a> </li>
+                <li> <a href="">About us</a> </li>
+            </ul>
+        </div>
+    </div>
+    
+    <header>
+     <h1>Blogs</h1>
+     
+     <ol reversed>
+         <li>Fourth blog</li>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic!</p>
+         <button class="btn">
+            Blog Link
+        </button>
+         <li>Third blog</li>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic!</p>
+         <button class="btn">
+            Blog Link
+        </button>
+         <li>Second blog</li>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic!</p>
+         <button class="btn">
+            Blog Link
+        </button>
+         <li>First blog</li>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, hic!</p>
+         <button class="btn">
+            Blog Link
+        </button>
+     </ol>
+    </header>
+
+
+
+
+
+
+    <footer class="f">
+        <h2>
+
+            Connect with me on!
+            </h2>
+        <img src="/images/github logo.png" alt="" class="f1">
+            <img src="/images/linkedin logo.png" alt="" class="f1" width="25px">
+            <img src="/images/twitter logo.png" alt="" class="f1">
+    </footer>
+</body>
+</html>
