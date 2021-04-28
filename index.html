@@ -29,30 +29,36 @@
     .navi{
         display: flex;
         background-color:var(--primary);
-        border-bottom-right-radius: 110px;
+        border-bottom-right-radius: 55px;
         align-items: center;
         justify-content: center;
         /* another aproch by ankita website*/
         padding:0rem 1rem;
-        width: 100%;
-        max-width: 800px;
+        width: 80%;
+        /* max-width: 800px; */
         margin: auto;
+        height: 72px;
     }
-    img.logo{
-        padding: 10px;
-        margin:10px;
-        width:"10px";
-        height:"10px";   
+    .logo img {
+        padding: 2px;
+        margin:0px;
+        
+        width: 75px;
+        height: 75px;
+
+          
     }
     img.logo1:hover{
-        width: 100px;
-        height:100px;
+        /* width: 100px;
+        height:100px; */
         background-color: chartreuse;
         /* image-resolution: 100 100; */
+        padding-left: 2px;
 
     }
     .menu{padding: 10px;
-        margin:10px;   background-color: var(--primary);
+        margin:10px;  
+         /* background-color: var(--primary); */
 
     }
     .menu ul{
@@ -62,13 +68,13 @@
     .menu ul li{
         padding: 5px 10px;
         list-style: none;
-        background-color: var(--primary);
+        /* background-color: var(--primary); */
     }
     .menu ul li a{
         text-decoration: none;
         color:var(--textcolor);
         font-size: 1.5rem;
-        background-color: var(--primary);
+        /* background-color: var(--primary); */
 
 
         
@@ -76,7 +82,7 @@
     .menu ul li a:hover{
 
         color:var(--hover);
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
         
         
@@ -125,16 +131,21 @@
         background-color:var(--secondary);
         border-radius: 40px;
         text-align: center;
-        /* max-width:600px; */
+        /* max-width:800px; */
+        width: 80%;
         /* height: auto; */
-        align-self: center;
+        /* align-self: center; */
+        /* justify-content: center; */
+        /* align-items: center; */
         padding:20px ;
-    margin: 20px;
-    
+        margin: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
     .sec3 p {
         padding: 10px;
-        font-size: 2vw;
+        font-size: 1.2rem;
         background-color: var(--secondary);
 }
     .sec3 h1{  background-color: var(--secondary);}
@@ -142,25 +153,27 @@
         padding:20px ;
         margin: 20px;
         text-align: center;
+        width: 80%;
+        margin: auto;
     }
     .sec4 p{
         padding: 10px;
-        font-size: 2vw;}
-    .sec5{
+        font-size: 1.2rem;}
+    /* .sec5{
     padding:20px ;
     margin: 20px;
-    /* text-align: center; */
+    text-align: center;
     background-color:var(--secondary) ;
         border-radius: 40px;
         text-align: center;
-        /* max-width:600px; */
-        /* height: auto; */
-        align-self: center;}
+        max-width:600px;
+        height: auto;
+        align-self: center;} */
     .btn1{
         background-color: var(--primary);
         border-radius: 10px;
         /* text-padding:20px; */
-        font-size:20px;
+        font-size: 1.2rem;
         padding: 2px;
         margin: 5px;
         align-self: center;
@@ -168,10 +181,13 @@
     .btn1 a{
         text-decoration: none;
     }
+    /* fotter css */
     .f{
         background-color: var(--primary);
         border-top-right-radius: 20px;
         text-align: center;
+        width: 80%;
+        margin: auto;
     }
     .f1{
         width: 50px;
@@ -193,7 +209,8 @@
         <!-- navigation bar section  -->
         <div class="navi">
             <div class="logo">
-                <a href="/"><img class="logo1"src="/images/39 (2).jpg" width="80px" height="80px">
+                <a href="/"><img  src="/images/rahul logo.png" >
+                     <!-- width="80px" height="80px"> -->
                 </a>
                 </div >
             <div class="menu">
@@ -210,7 +227,7 @@
          
         <!-- section 2 -->
         <section class="sec2">
-            <img src="images/header.svg" alt="Erroe!" class="center sec2img1">
+            <img src="images/header1.svg" alt="Erroe!" class="center sec2img1">
             <h1 class="center">Hii I am <span style="color:var(--primary) ;font-family: 'Times New Roman', Times, serif;">Rahul</span></h1>
         </section>
 
@@ -232,9 +249,7 @@
         <section class="sec3">
             <h1>Projects</h1>
             <p>I would like to showcase my work and thus, you can see my project hosted online </p>
-            <button class="btn1"><a href="/project.html">Projects</a>
-                
-            </button>
+            <button class="btn1"><a href="/project.html">Projects</a></button>
         </section>
             <!-- section 6 -->
             <section class="sec4">

@@ -8,7 +8,10 @@
 </head>
 <style>
    /* navigation css */
-    *{
+
+        
+        
+   *{
         padding: 0rem;
         margin:0rem;
         /* background-color:; */
@@ -20,7 +23,6 @@
     /* --secondary:#e8f16a; */
     --hover:chartreuse;
     --secondary:#caf0f8;
-    text-align: center;
 
 
     }
@@ -29,58 +31,76 @@
     .navi{
         display: flex;
         background-color:var(--primary);
-        border-bottom-right-radius: 110px;
+        border-bottom-right-radius: 55px;
         align-items: center;
         justify-content: center;
         /* another aproch by ankita website*/
         padding:0rem 1rem;
-        width: 100%;
-        max-width: 800px;
+        width: 80%;
+        /* max-width: 800px; */
         margin: auto;
+        height: 72px;
     }
-    img.logo{
-        padding: 10px;
-        margin:10px;
-        width:"10px";
-        height:"10px";   
+    .logo img {
+        padding: 2px;
+        margin:0px;
+        
+        width: 75px;
+        height: 75px;
+
+          
     }
     img.logo1:hover{
-        width: 100px;
-        height:100px;
+        /* width: 80px;
+        height:80px; */
         background-color: chartreuse;
         /* image-resolution: 100 100; */
 
     }
     .menu{padding: 10px;
-        margin:10px; 
+        margin:10px;  
+         /* background-color: var(--primary); */
 
     }
     .menu ul{
         display: flex;
+        /* background-color: var(--primary); */
     }
     .menu ul li{
         padding: 5px 10px;
         list-style: none;
+        background-color: var(--primary);
     }
     .menu ul li a{
         text-decoration: none;
-        color: var(--textcolor);
+        color:var(--textcolor);
         font-size: 1.5rem;
+        background-color: var(--primary);
+
 
         
     }
     .menu ul li a:hover{
 
-        color: chartreuse;
-        font-size: 1.8rem;
-        
+        color:var(--hover);
+        font-size: 1.6rem;
+
     }
+        
+        
+    
 
     /* footer css */
+    
+
+
+
     .f{
         background-color: var(--primary);
         border-top-right-radius: 20px;
         text-align: center;
+        width: 80%;
+        margin: auto;
     }
     .f1{
         width: 50px;
@@ -97,19 +117,30 @@
 
     }
    /* ol li css */
+   #blog {
+       margin-left: 10%;
+       padding-top: 10px;
+       font-size: 3rem;
+       
+   }
    ol{
         color: var(--textcolor);
         margin: 2rem;
         padding: 10px;
         text-align: left;
+        /* margin-left: 10%; */
+        /* padding-top: 2px; */
     }
     ol li{
         font-size: 25px;
         margin: auto;
         padding: 10px;
+        margin-left: 10%;
+
     }
     ol p{
         text-align: left;
+        margin-left: 10%;
 
     }
 
@@ -122,6 +153,8 @@
        padding: 2px;
        margin: 5px;
         align-self: center;
+        margin-left: 10%;
+
     }
 
 
@@ -133,7 +166,7 @@
     <!-- navigation -->
     <div class="navi">
         <div class="logo">
-            <a href="/"><img class="logo1"src="/images/39 (2).jpg" width="80px" height="80px">
+            <a href="/"><img class="logo1" src="/images/rahul logo.png"  >
             </a>
             </div >
         <div class="menu">
@@ -147,7 +180,7 @@
     </div>
     
     <header>
-     <h1>Blogs</h1>
+     <h1 id="blog">Blogs</h1>
      
      <ol reversed>
          <li>Fourth blog</li>

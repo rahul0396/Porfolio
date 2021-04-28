@@ -16,6 +16,7 @@
     --primary: #e5f50a;
 
     } */
+
     *{
         padding: 0rem;
         margin:0rem;
@@ -28,7 +29,6 @@
     /* --secondary:#e8f16a; */
     --hover:chartreuse;
     --secondary:#caf0f8;
-    text-align: center;
 
 
     }
@@ -37,68 +37,84 @@
     .navi{
         display: flex;
         background-color:var(--primary);
-        border-bottom-right-radius: 110px;
+        border-bottom-right-radius: 55px;
         align-items: center;
         justify-content: center;
         /* another aproch by ankita website*/
         padding:0rem 1rem;
-        width: 100%;
-        max-width: 800px;
+        width: 80%;
+        /* max-width: 800px; */
         margin: auto;
+        height: 72px;
     }
-    img.logo{
-        padding: 10px;
-        margin:10px;
-        width:"10px";
-        height:"10px";   
+    .logo img {
+        padding: 2px;
+        margin:0px;
+        
+        width: 75px;
+        height: 75px;
+
+          
     }
     img.logo1:hover{
-        width: 100px;
-        height:100px;
+        /* width: 100px;
+        height:100px; */
         background-color: chartreuse;
         /* image-resolution: 100 100; */
 
     }
     .menu{padding: 10px;
         margin:10px; 
+  /* background-color: var(--primary); */
 
     }
     .menu ul{
         display: flex;
+        /* background-color: var(--primary); */
     }
     .menu ul li{
         padding: 5px 10px;
         list-style: none;
+        background-color: var(--primary);
     }
     .menu ul li a{
         text-decoration: none;
-        color: var(--textcolor);
+        color:var(--textcolor);
         font-size: 1.5rem;
+        background-color: var(--primary);
+
 
         
     }
     .menu ul li a:hover{
 
-        color: chartreuse;
-        font-size: 1.8rem;
-        
+        color:var(--hover);
+        font-size: 1.6rem;
     }
-    .sec1{
-        font-size: xx-large;
+        
+    
+    .sec1 h1{
+       font-size: 3rem;
+       padding-top: 10px;
+        margin-left: 10%;
     }
     ol{
         color: var(--textcolor);
         margin: 2rem;
         padding: 10px;
         text-align: left;
+        /* margin-left: 10%; */
     }
     ol li{
         font-size: 25px;
         margin: auto;
         padding: 10px;
-    }
+     margin-left: 10%;
+     }
+
     ol p{
         text-align: left;
+        margin-left: 10%;
 
     }
     .btn{
@@ -109,6 +125,7 @@
        padding: 2px;
        margin: 5px;
         align-self: center;
+        margin-left: 10%;
     }
     .btn1{
         background-color:var(--primary);
@@ -129,13 +146,16 @@
 
 
 
+        /* fotter csss */
 
 
 
-    .f{
+        .f{
         background-color: var(--primary);
         border-top-right-radius: 20px;
         text-align: center;
+        width: 80%;
+        margin: auto;
     }
     .f1{
         width: 50px;
@@ -146,7 +166,11 @@
     .f1 img{
         width: 20px;
         height:20px;
-        display: flex;}
+        display: flex;
+        
+        
+
+    }
     
     /* li{
     display: list-item;
@@ -179,7 +203,8 @@
 <body>
     <div class="navi">
         <div class="logo">
-            <a href="/"><img class="logo1"src="/images/39 (2).jpg" width="80px" height="80px">
+            <a href="/"><img  src="/images/rahul logo.png" >
+                 <!-- width="80px" height="80px"> -->
             </a>
             </div >
         <div class="menu">
@@ -190,6 +215,8 @@
                 <li> <a href="">About us</a> </li>
             </ul>
         </div>
+    
+    </div>
     
     </div>
     <section class="sec1">
