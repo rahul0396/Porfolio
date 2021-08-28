@@ -6,200 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style>
-     /* *{
-        padding: 0rem;
-        margin:0rem;
-
-    }
-    :root{
-    --primary: #e5f50a;
-
-    } */
-
-    *{
-        padding: 0rem;
-        margin:0rem;
-        /* background-color:; */
-    
-    }
-    :root{
-    --primary:#00b4d8;
-    --textcolor: #03045e;
-    /* --secondary:#e8f16a; */
-    --hover:chartreuse;
-    --secondary:#caf0f8;
-
-
-    }
-    h1,h2,p{
-        color:var(--textcolor);}
-    .navi{
-        display: flex;
-        background-color:var(--primary);
-        border-bottom-right-radius: 55px;
-        align-items: center;
-        justify-content: center;
-        /* another aproch by ankita website*/
-        padding:0rem 1rem;
-        width: 80%;
-        /* max-width: 800px; */
-        margin: auto;
-        height: 72px;
-    }
-    .logo img {
-        padding: 2px;
-        margin:0px;
-        
-        width: 75px;
-        height: 75px;
-
-          
-    }
-    img.logo1:hover{
-        /* width: 100px;
-        height:100px; */
-        background-color: chartreuse;
-        /* image-resolution: 100 100; */
-
-    }
-    .menu{padding: 10px;
-        margin:10px; 
-  /* background-color: var(--primary); */
-
-    }
-    .menu ul{
-        display: flex;
-        /* background-color: var(--primary); */
-    }
-    .menu ul li{
-        padding: 5px 10px;
-        list-style: none;
-        background-color: var(--primary);
-    }
-    .menu ul li a{
-        text-decoration: none;
-        color:var(--textcolor);
-        font-size: 1.5rem;
-        background-color: var(--primary);
-
-
-        
-    }
-    .menu ul li a:hover{
-
-        color:var(--hover);
-        font-size: 1.6rem;
-    }
-        
-    
-    .sec1 h1{
-       font-size: 3rem;
-       padding-top: 10px;
-        margin-left: 10%;
-    }
-    ol{
-        color: var(--textcolor);
-        margin: 2rem;
-        padding: 10px;
-        text-align: left;
-        /* margin-left: 10%; */
-    }
-    ol li{
-        font-size: 25px;
-        margin: auto;
-        padding: 10px;
-     margin-left: 10%;
-     }
-
-    ol p{
-        text-align: left;
-        margin-left: 10%;
-
-    }
-    .btn{
-       background-color:var(--secondary);
-       color: var(--textcolor);
-       border-radius: 10px;
-       font-size: 20px;
-       padding: 2px;
-       margin: 5px;
-        align-self: center;
-        margin-left: 10%;
-    }
-    .btn1{
-        background-color:var(--primary);
-       color: var(--textcolor);
-       border-radius: 10px;
-       font-size: 20px;
-       padding: 2px;
-       margin: 5px;
-        align-self: center;
-    }
-    .btn:hover{
-        background-color:#9dc7cf ;
-    }
-    .btn1:hover{
-        background-color: #035e70;
-    }
-
-
-
-
-        /* fotter csss */
-
-
-
-        .f{
-        background-color: var(--primary);
-        border-top-right-radius: 20px;
-        text-align: center;
-        width: 80%;
-        margin: auto;
-    }
-    .f1{
-        width: 50px;
-        height:50px;
-        padding: 10px 10px;
-        margin-right: 10px;
-    }
-    .f1 img{
-        width: 20px;
-        height:20px;
-        display: flex;
-        
-        
-
-    }
-    
-    /* li{
-    display: list-item;
-    list-style-position: inside;
-        } 
-
-        ol li   {
-                     display:block;
-                     list-style: decimal;
-                     list-style-position: inside;
-                     
-}
-                }
-  ol {
-    list-style-type: decimal;
-    list-style-position: inside;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0px;
-    } */
-
-
-
-
-
-
-</style>
+<link rel="stylesheet" href="project.css">
 <body>
     <div class="navi">
         <div class="logo">
@@ -212,7 +19,7 @@
                 <li> <a href="/">Home</a> </li>
                 <li> <a href="/project.html">Projects</a> </li>
                 <li> <a href="/blogs.html">Blogs</a> </li>
-                <li> <a href="">About us</a> </li>
+                <!-- <li> <a href="">About us</a> </li> -->
             </ul>
         </div>
     
@@ -224,38 +31,192 @@
     </section>
     <!-- <div class="sec2"> -->
         <ol reversed>
-            <li>My portfolio</li>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque unde quia voluptas ratione placeat, soluta porro suscipit exercitationem saepe voluptatem optio numquam facilis incidunt commodi. Quisquam ea nihil quaerat mollitia!</p>
+            <li>Stocks Profit Loss Calculator</li>
+            <time>August 2021</time>
+            <p class="neog-tag">#Mark 14</p>
+            <p>Where's my stocks? This app checks the profit or loss of stock holder according to how many stock quantity he bought and its current price. Isn't it fun? Click on the live project and try it out.</p>
+            <a href="https://stocks-profitorloss.netlify.app/">
+                <button class="btn">
+                    Live Project
+                </button>
+            </a>
+            <a href="https://github.com/rahul0396/Stocks-Profit-or-Loss">
+                <button class="btn1">
+                    Source Code
+                </button>
+            </a>
+            
+
+            <li>Is your Birthday a Palindrome?</li>
+            <time>August 2021</time>
+            <p class="neog-tag">#Mark 13</p>
+            <p>A Palindrome Birthday? This app checks whether your birthday is palindrome and if not palindrome then it will tell you the nearest palindrome date. Isn't it fun? Click on the live project and try it out.</p>
+            <a href="https://isbirthdaypalidrome.netlify.app/">
+                <button class="btn">
+                    Live Project
+                </button>
+            </a>
+            <a href="https://github.com/rahul0396/Is-Your-Birthday-Palidrome-or-Not">
+                <button class="btn1">
+                    Source Code
+                </button>
+            </a>
+
+
+            <li>Fun With Triangles</li>
+            <time>August 2021</time>
+            <p class="neog-tag">#Mark 12</p>
+            <p>Ever played with Triangles? This is a fun mathematical app which checks your knowledge on triangles.It includes claculating hypotenuse, area, checking angle and a small quiz. Isn't it fun? Click on the live project and try it out.</p>
+            <a href="https://funwithtrianglebyrahul.netlify.app/">
+                <button class="btn">
+                    Live Project
+                </button>
+            </a>
+            <a href="https://github.com/rahul0396/Fun-with-Triangles">
+                <button class="btn1">
+                    Source Code
+                </button>
+            </a>
+
+
+
+            <li>Is your Birthday Lucky?</li>
+            <time>August 2021</time>
+            <p class="neog-tag">#Mark 11</p>
+            <p>Believe in Lucky Birthday? This app takes user birthdate and lucky number and based on that it tells you whether your birthday is lucky for you or not. Isn't it fun? Click on the live project and try it out.</p>
+            <a href="https://birthdaylucky-or-not.netlify.app/">
+                <button class="btn">
+                    Live Project
+                </button>
+            </a>
+            <a href="https://github.com/rahul0396/Birthday-is-Lucky-or-Not">
+                <button class="btn1">
+                    Source Code
+                </button>
+            </a>
+
+
+            <li>Cash Register Manager</li>
+            <time>August 2021</time>
+            <p class="neog-tag">#Mark 10</p>
+            <p>Stuck with notes? This app takes the bill amount and cash given by the user and helps the user by telling him to return the change to the customer with minimum number of notes. Isn't it fun? Click on the live project and try it out.</p>
+            <a href="https://cash-register-managerbyrahul.netlify.app/">
+                <button class="btn">
+                    Live Project
+                </button>
+            </a>
+            <a href="https://github.com/rahul0396/Cash-Register-Manager">
+                <button class="btn1">
+                    Source Code
+                </button>
+            </a>
+                
+
+
+
+
+
+            <li>Recommendations</li>
+            <time>August 2021</time>
+            <p class="neog-tag">#Mark 9</p>
+            <p>Lorem ipsum dolor sit amet.</p>
             <button class="btn">
-                Browse project
+                Live Project
             </button>
             <button class="btn1">
-                code
+                Source Code
             </button>
-            <li>Quiz</li>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At exercitationem consequuntur eaque debitis quis, minus ab hic ea totam qui explicabo et autem optio quasi nam impedit sequi inventore laudantium.</p>
+
+
+
+
+
+
+
+
+            <li>Emoji Interpreter</li>
+            <time>August 2021</time>
+            <p class="neog-tag">#Mark 8</p>
+            <p>Difficulty in finding the meaning of emojis? Enter the emoji and find out its meaning. Isn't it fun? Click on the live project and try it out.</p>
             <button class="btn">
-                Browse project
+                Live Project
             </button>
             <button class="btn1">
-                code
+                Source Code
             </button>
-            <li>Language Translator</li>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis assumenda cumque molestias cum, esse repudiandae sed dicta animi fugit nostrum voluptate, eius in eos ex rem consectetur nemo voluptas iste.</p>
+
+
+
+
+            <li>Iron Man Translator</li>
+            <time>25 May 2021</time>
+            <p class="neog-tag">#Mark 7</p>
+            <p>This is a translation app to convert english to Ironman  language.</p>
+            <a href="https://ironmantranslator.netlify.app/">
+                <button class="btn">
+                    Live Project
+                </button>
+            </a>
+            <a href="https://github.com/rahul0396/Translator-js-app">
+                <button class="btn1">
+                    Source Code
+                </button>
+            </a>
+
+
+            <li>Banana Speaks</li>
+            <time>4 May 2021</time>
+            <p class="neog-tag">#Mark 6</p>
+            <p>This is a translation app to convert english to banana language. Minions speak in banana language in Animated movie Despicable me. This is a fun game to talk like minions in friends.</p>
+             <a href="https://bananas-speak.netlify.app/">
+
+
+                 <button class="btn">
+                     Live Project
+                    </button>
+                </a>
+            <a href="https://github.com/rahul0396/Talk-Banana">
+                <button class="btn1">
+                    Source Code
+                </button>
+            </a>
+
+
+            <li>Are you a cricket fan?</li>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis assumenda cumque molestias cum, esse repudiandae sed dicta animi fugit nostrum voluptate, eius in eos ex rem consectetur nemo voluptas iste.</p> -->
+            <time>25 April 2021</time>
+            <p class="neog-tag">#Mark 2</p>
+            
+            <p>A CLI app built with nodeJS. A small fun game, you can send this to your friends and find out who is the biggest fan of Cricket</p>
+            
+            <a href="https://replit.com/@rahulsharma0396/Cricket-Quiz-CLI-App">
+
+                <button class="btn">
+                    Live Project
+                </button>
+            </a>
+            <a href="https://github.com/rahul0396/Cricket-Quiz-App">
+
+                <button class="btn1">
+                    Source Code
+                </button>
+            </a>
+            <li>How well "Do You Know Me?"</li>
+            <time>20 April 2021</time>
+            <p class="neog-tag">#Mark 1</p>
+
+            <p>Want to know more about me? This CLI app is a quiz where in you can answer some of my basic questions and also send this to your friends and find out who really knows me. Click on the live project and try it out.</p>
+           <a href="https://replit.com/@rahulsharma0396/First-CLI-App-1">
             <button class="btn">
-                Browse project
+                Live Project
             </button>
+        </a>
+        <a href="https://github.com/rahul0396/How-Well-Do-You-Know-Me--Quiz">
+
             <button class="btn1">
-                code
+                Source Code
             </button>
-            <li>Emoji Dictionary</li>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque facilis quae sapiente saepe voluptatem consectetur dignissimos omnis. Quasi, sapiente rerum ipsam animi natus eligendi aliquid assumenda aut maxime adipisci illum.</p>
-            <button class="btn">
-                Browse project
-            </button>
-            <button class="btn1">
-                code
-            </button>
+        </a> 
         </ol>
     
 
